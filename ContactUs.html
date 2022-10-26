@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lindisfarne Ballroom Dancing Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./classes.html">Classes</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./events.html">Events</a></li>
+            <li><a href="./exams.html">Exams</a></li>
+            <li><a href="./HowToJoin.html">How to Join</a></li>
+            <li><a href="./UniformGuide.html">Uniform Guide</a></li>
+            <li><a href="./ContactUs.html" current>Contact Us</a></li>
+        </ul>
+    </nav>
+    <header class="home-header">
+        <h1 class="title">Lindisfarne Ballroom Dancing Club</h1>
+        <!-- <h5 class="subtitle">founded in 2016</h5> -->
+    </header>
+    <main class="contact">
+        <section class="contact-info">
+            <h3>Let's Get in Touch</h3>
+            <p class="address">
+                2SJ, Marygate, Berwick-upon-Tweed<br/>
+                Holy Island<br/>
+                United Kingdom
+            </p>
+            <div class="contact-method">
+                <p>
+                    For membership questions, please email: membership@lbdc.ca
+                </p>
+                <p>
+                    Phone: (306) 586-9771 (call or text)
+                </p>
+            </div>
+            <p>
+                <strong>*Note</strong>: LBDC does not have administration staff. Email, posted letters and the LBDC phone number are managed by volunteers. When leaving messages for LBDC, we appreciate your patience. During registration (August, September, December and January), we try to reply within 48 hours. Non-registration times will be longer.
+            </p>
+        </section>
+        <section>
+            <form class="contact-form" action="#">
+                <label>
+                    Name *
+                    <div class="name-div">
+                        <label>
+                            <input type="text" name="first-name" required>
+                            <small>First Name</small>
+                        </label>
+                        <label>
+                            <input type="text" iname="last-name">
+                            <small>Last Name</small>
+                        </label>
+                    </div>
+                </label>
+                <label>
+                    Email Address *
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Interested Class *
+                    <!-- <input type="text" name="subject" required> -->
+                    <select name="class">
+                        <option value="1">Beginner</option>
+                        <option value="2">Intermediate</option>
+                        <option value="3">Advanced</option>
+                    </select>
+                </label>
+                <label>
+                    Message *
+                    <textarea name="message" cols="30"></textarea>
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        @design by rbdc.ca
+    </footer>
+</body>
+</html>
