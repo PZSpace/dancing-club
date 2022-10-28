@@ -76,6 +76,13 @@ meter {
     -webkit-user-drag: element;
 }
 
+/*  */
+
+select {
+    all: revert;
+    font-size: 1rem;
+}
+
 
 
 /* Nav and Header */
@@ -368,6 +375,14 @@ form.contact-form label {
     width: 100%;
 }
 
+form.contact-form button {
+    width: fit-content;
+    padding: 10px 20px;
+    font-weight: 600;
+    /* margin: auto; */
+    border: 1px solid #111;
+}
+
 .name-div {
     width: 100%;
     display: flex;
@@ -382,13 +397,7 @@ input, textarea, select {
     padding: 6px 10px;
 }
 
-form.contact-form button {
-    width: fit-content;
-    padding: 10px 20px;
-    font-weight: 600;
-    /* margin: auto; */
-    border: 1px solid #111;
-}
+
 
 @media only screen and (max-width:640px) {
     .contact {
@@ -474,6 +483,11 @@ form.contact-form button {
     text-decoration: underline;
 }
 
+.join .contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
 @media only screen and (max-width:640px) {
     .join {
         padding: 10px;
@@ -481,7 +495,15 @@ form.contact-form button {
 }
 
 /* Exam Page */
+.exam h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
 
+.exam p {
+    margin-bottom: 15px;
+}
 
 
 /* Unifrom Guide Page */

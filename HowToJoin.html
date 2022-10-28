@@ -103,6 +103,43 @@
                 
             </div>
         </section>
+        <hr />
+        <section>
+            <form class="contact-form" action="#">
+                <h3>Registration Form</h3>
+                <label>
+                    Name *
+                    <div class="name-div">
+                        <label>
+                            <input type="text" name="first-name" required>
+                            <small>First Name</small>
+                        </label>
+                        <label>
+                            <input type="text" iname="last-name">
+                            <small>Last Name</small>
+                        </label>
+                    </div>
+                </label>
+                <label>
+                    Email Address *
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Interested Class *
+                    <!-- <input type="text" name="subject" required> -->
+                    <select name="class">
+                        <option value="1">Beginner</option>
+                        <option value="2">Intermediate</option>
+                        <option value="3">Advanced</option>
+                    </select>
+                </label>
+                <label>
+                    Message *
+                    <textarea name="message" cols="30"></textarea>
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
     <footer>
         @design by rbdc.ca
